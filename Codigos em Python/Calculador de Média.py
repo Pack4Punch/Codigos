@@ -1,0 +1,21 @@
+print(".................................")
+print("-------Média de Notas-------")
+print(".................................")
+print()
+n1=float(input("Digite a Pirmeira nota: "))
+print("..................................")
+n2=float(input("Digite a Segunda nota: "))
+print("..................................")
+n3=float(input("Digite a Terceira nota: "))
+print(".................................")
+n4=float(input("Digite a Quarta nota: "))
+print(".................................")
+media=float((n1+n2+n3+n4)/4)
+print(f"A sua media é [{media}]")
+print(".................................")
+if media >= 7:
+    print("Você está Aprovado!")
+else:
+    print ("Você está Reprovado!")      
+print(".................................")
+
